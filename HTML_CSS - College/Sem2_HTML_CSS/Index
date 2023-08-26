@@ -1,0 +1,22 @@
+1. Basic Template
+2. 2:34 PM 11-Apr-2023 Create a simple webpage with the following elements:
+    1.	A heading that says "My Favorite Movies"
+    2.	An ordered list with three movies of your choice
+    3.	An unordered list with three games of your choice
+    4.	Describe the summary about each movie using DL tag.
+    5.	Describe the summary about each game using DL tag
+    6.	An image of each movie must also be inserted under summary of movie. 
+    7.	An image of each game must also be inserted under summary of game.
+    8.	A paragraph that describes why you like that movie.
+    9.	A paragraph that describes why you like that game.
+    10.	A link to a trailer of that movie must also be available on your webpage. (You can provide the web link)
+3. Style 
+4. 10:36 PM 18-Apr-23 Creating a bill using tables in HTML assignment last date 19-Apr-23
+5. 2:46 PM 25-Apr-23 Create a form
+6. 9th of April 2023 Example of UL OL DL DD tags
+7. 12:33 PM 06-May-2023 Create a webpage with framesets
+    - two rows & in 2nd row 2 cols
+    - src file of 1st row should have marquee tag
+    - src file of 2nd row 1st col have internal link
+    - src file of 3rd row, 2nd col 
+8. [Folder] framsets

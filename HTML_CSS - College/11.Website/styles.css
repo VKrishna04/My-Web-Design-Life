@@ -1,0 +1,214 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+.background-even {
+    background-color: #222;
+}
+
+.background-odd {
+    background-color: #333;
+}
+
+.container {
+    max-width: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.containerflex {
+    max-width: auto;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: White;
+}
+
+a:hover {
+    color: rgb(179, 223, 210);
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 20px;
+}
+
+/* Header styles */
+header {
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    padding-top: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #000;
+    padding: 3px;
+    text-decoration: strong;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    pointer-events: cursor;
+}
+
+/* Hero section styles */
+/*This must always be class and not id*/
+.hero {
+    background-color: #333;
+    text-align: center;
+    padding: 100px;
+    color: white;
+    background-repeat: repeat-x;
+    background-position: center;
+    z-index: -50;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d6d4d4;
+}
+
+/* About section styles */
+.about {
+    padding: 20px;
+    overflow: auto;
+}
+
+#about-image {
+    float: left;
+    width: 40%;
+    margin-right: 20px;
+}
+
+#about-image img {
+    width: 100%;
+}
+
+#about-content {
+    float: right;
+    width: 60%;
+    flex: 1;
+}
+
+#about-content h2 {
+    text-align: center;
+}
+
+#about-content p {
+    text-align: center;
+}
+
+/* Services section styles */
+.services {
+    padding: 40px;
+}
+
+.service {
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.service img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* Events section styles */
+.services {
+    background-color: rgb(28, 26, 29);
+    padding: 40px;
+    padding-top: 15px;
+}
+
+.event img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #111;
+    padding: 20px;
+}
+
+form input,
+form textarea,
+form button {
+    margin-bottom: 20px;
+    width: 50;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f2f2f2;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}

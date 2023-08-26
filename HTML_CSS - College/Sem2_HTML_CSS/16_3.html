@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<!-- Create a web page with different background colors based on device size -->
+<head>
+  <title>Responsive Background Color</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .green-bg {
+      background-color: green;
+      height: 100vh;
+    }
+
+    .red-bg {
+      background-color: red;
+      height: 100vh;
+    }
+
+    .yellow-bg {
+      background-color: yellow;
+      height: 100vh;
+    }
+
+    @media (max-width: 767px) {
+      .green-bg,
+      .red-bg {
+        display: none;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .green-bg,
+      .yellow-bg {
+        display: none;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .red-bg,
+      .yellow-bg {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="green-bg">Green on large devices</div>
+  <div class="red-bg">Red on medium devices</div>
+  <div class="yellow-bg">Yellow on small devices</div>
+</body>
+</html>

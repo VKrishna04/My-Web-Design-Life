@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task 8_3</title>
+    <style>
+        .rotating-image {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            animation: rotateAnimation 4s linear infinite;
+        }
+
+        .rotating-image img {
+            width: 100%;
+            height: 100%;
+        }
+
+        @keyframes rotateAnimation {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="rotating-image">
+        <img src="image.jpg" alt="Rotating Image">
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Create the layout from Task 6 using CSS grid -->
+<html>
+<head>
+  <title>CSS Grid Layout</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto 1fr auto;
+      gap: 20px;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      grid-column: 1 / span 2;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    .sidebar {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    .content {
+      background-color: #fff;
+      padding: 10px;
+    }
+
+    .footer {
+      grid-column: 1 / span 2;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">Navbar</div>
+    <div class="sidebar">Sidebar</div>
+    <div class="content">Content</div>
+    <div class="footer">Footer</div>
+  </div>
+</body>
+</html>

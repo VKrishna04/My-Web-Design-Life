@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task 8_4</title>
+    <style>
+        .slider {
+            width: 400px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slider-inner {
+            width: 300%;
+            height: 100%;
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slider-inner img {
+            width: 33.33%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slider-navigation {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+        }
+
+        .slider-navigation button {
+            background-color: #fff;
+            border: none;
+            width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            padding: 0;
+            border-radius: 50%;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .slider-navigation button.active {
+            background-color: #ff7f50;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <div class="slider-inner">
+            <img src="image1.jpg" alt="Slider Image 1">
+            <img src="image2.jpg" alt="Slider Image 2">
+            <img src="image3.jpg" alt="Slider Image 3">
+        </div>
+    </div>
+    <div class="slider-navigation">
+        <button class="active"></button>
+        <button></button>
+        <button></button>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var sliderInner = document.querySelector(".slider-inner");
+            var sliderNavigation = document.querySelectorAll(".slider-navigation button");
+
+            var currentIndex = 0;
+            var slideWidth = sliderInner.clientWidth / 3;
+
+            function goToSlide(index) {
+                sliderInner.style.transform = "translateX(-" + slideWidth * index + "px)";
+
+                // Update active navigation button
+                for (var i = 0; i < sliderNavigation.length; i++) {
+                    sliderNavigation[i].classList.remove("active");
+                }
+                sliderNavigation[index].classList.add("active");
+            }
+
+            function nextSlide() {
+                currentIndex++;
+                if (currentIndex >= sliderNavigation.length) {
+                    currentIndex = 0;
+                }
+                goToSlide(currentIndex);
+            }
+
+            // Auto-rotate slides every 3 seconds
+            setInterval(nextSlide, 3000);
+
+            // Attach click event listeners to navigation buttons
+            for (var i = 0; i < sliderNavigation.length; i++) {
+                sliderNavigation[i].addEventListener("click", function () {
+                    var buttonIndex = Array.prototype.indexOf.call(sliderNavigation, this);
+                    goToSlide(buttonIndex);
+                    currentIndex = buttonIndex;
+                });
+            }
+        });
+    </script>
+</body>
+</html>

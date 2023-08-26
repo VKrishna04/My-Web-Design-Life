@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Technical Club</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        input,
+        textarea {
+            width: 50vw;
+        }
+    </style>
+    <style>
+        #home {
+            background-image: url(Designer2.png);
+            height: 100vh;
+            z-index: 0;
+            background-size: 100vh;
+            width: 100%;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="4.jpeg" alt="logo" style="float:left;width: 100px; height: 100px;" href="index.html">
+        <nav>
+            <ul><b>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Specialities</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </b>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background-image: url(1herowall.png);align-items: center; height: 50vh;background-repeat: repeat-x;">
+        <div class="hero-content">
+            <h1>Welcome to the Technical Club</h1>
+            <p>Empowering Innovations, Exploring Technologies</p>
+            <a href="login.html" class="cta-button">Join Now</a>
+        </div>
+    </section>
+<br><br>
+    <div style="float: inline-end;">
+        <video autoplay muted loop>
+            <source src="Designervideo1.mp4" type="video/mp4">
+        </video>
+    </div>
+    <br><br>
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form" action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <input type="email" name="email" placeholder="Your Email" required><br>
+                <textarea name="message" placeholder="Your Message" required></textarea><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <br>
+    <!-- Footer Section -->
+    <footer>
+        <p><a href="index.html">2023 &copy; Technical Club&trade;.<br> All rights reserved.</a></p>
+    </footer>
+</body>
+</html>

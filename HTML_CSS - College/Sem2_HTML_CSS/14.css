@@ -1,0 +1,49 @@
+/* Task 1: Create a responsive navbar using relative lengths */
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Task 2: Create a sticky navbar using the position property */
+
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
+/* Task 3: Demonstrate the use of list-style property using a UL as an example */
+
+.content ul {
+  list-style: square inside;
+}
+
+/* Task 4: Demonstrate the use of Z-index using an example */
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}

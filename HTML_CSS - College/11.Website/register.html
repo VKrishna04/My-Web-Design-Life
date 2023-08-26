@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register Page</title>
+    <link rel="stylesheet" type="text/css" href="loginstyles.css">
+    <script>
+      var password;
+      var confirmpassword;
+    </script>
+</head>
+<body>
+    <header>
+        <img src="4.jpeg" alt="logo" style="float:left;width: 100px; height: 100px;" href="index.html">
+        <nav>
+            <ul><b>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Specialities</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </b>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <div class="containerflex">
+        <div class="form-container">
+            <h2>Register</h2>
+            <form id="register-form">
+                <h4>
+                  <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" placeholder="Username*" required>
+                  </div>
+                  <div>
+                    <label for="email">Email id:</label>
+                    <input type="email" id="email" placeholder="Email*" required>
+                  </div>
+                  <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Password*" required>
+                  </div>
+                  <div>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm Password*" required>
+                  </div>
+                  <div>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" placeholder="Date of Birth*" required>
+                  </div>
+                  <div>
+                    <button type="submit">Register</button>
+                    <button type="reset">Reset</button>
+                  </div>
+                </h4>
+              </form>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+    <br>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Technical Club&trade;.<br> All rights reserved.</p>
+    </footer>
+</body>
+</html>
