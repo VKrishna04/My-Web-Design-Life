@@ -1,75 +1,75 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
+  display: inline;
 }
 
 nav ul li a {
-    float: inline-end;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
+  float: inline-end;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 h1 {
-    font-size: 36px;
-    margin: 0;
+  font-size: 36px;
+  margin: 0;
 }
 
 main {
-    padding: 40px;
-    text-align: center;
+  padding: 40px;
+  text-align: center;
 }
 
 p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 .cta-button {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 footer p {
-    margin: 0;
+  margin: 0;
 }
