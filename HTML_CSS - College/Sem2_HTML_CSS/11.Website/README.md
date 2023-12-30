@@ -2,8 +2,8 @@
 
 Please start with [Main Page](index.html)
 
-1. Here, the hero wallpaper is using a video with a `Join Us` button leading to `Login` Page, and clicking on `Register` beside `Don't have anaccount?` below.
-2. After scrolling down in `index.html` we come across `About Us` section, `Upcomming Events` next comes our`Our Specialities` and atlast `Contact Us` finaly followed by Footer.
+1. Here, the hero wallpaper is using a video with a `Join Us` button leading to `Login` Page, and clicking on `Register` beside `Don't have an account?` below.
+2. After scrolling down in `index.html` we come across `About Us` section, `Upcoming Events` next comes our`Our Specialities` and at last `Contact Us` finally followed by Footer.
 3. In the Contact section is clicked on it, it will expand and all fields are required.
 4. Now in the nav bar if we goto the `about us` page or by clicking the this [link](about.html)
   - Here we can observe a section on about us and below it is an embedded iframes of google maps showcasing a particular location `Amrita Vishwa Vidyapeetham, Amaravati`.
